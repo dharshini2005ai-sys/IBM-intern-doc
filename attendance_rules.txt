@@ -1,0 +1,16 @@
+SAMPLE ACADEMIC DOCUMENT
+
+Attendance Guidelines
+
+This document is demonstration data for the AI Student Support Assistant.
+
+For demonstration purposes, the minimum attendance requirement used by this prototype is 75 percent.
+
+Students should verify official attendance regulations issued by their institution before making academic decisions.
+
+Attendance Percentage = (Classes Attended / Total Classes) × 100
+
+Example:
+42 classes attended out of 50 = 84 percent.
+
+This is sample project data and must be replaced with official institutional regulations before real-world use.

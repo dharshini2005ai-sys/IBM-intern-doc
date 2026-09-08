@@ -1,0 +1,9 @@
+SAMPLE ACADEMIC DOCUMENT
+
+Academic Calendar
+
+This sample document demonstrates RAG functionality. An academic calendar normally contains semester commencement, working days, internal assessment periods, examination periods and holidays.
+
+Students should consult the official academic calendar published by their institution for current dates.
+
+This document does not represent the official calendar of Surya Group of Institution.

@@ -1,0 +1,9 @@
+SAMPLE ACADEMIC DOCUMENT
+
+Department Information
+
+The project is designed for students studying Computer Science and Engineering with a Cyber Security specialization.
+
+Typical academic areas include Network Security, Cyber Forensics, Web Application Security, Cloud Security, Social Network Security, Ethical Hacking, Information Security, Computer Networks, Operating Systems and Database Management Systems.
+
+The exact curriculum must be verified using official institutional documents.
