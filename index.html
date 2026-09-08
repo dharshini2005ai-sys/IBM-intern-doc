@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Student Support Assistant</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+<div class="brand"><div class="brand-icon">AI</div><div><h1>Student AI</h1><p>Agentic Support</p></div></div>
+<div class="sidebar-section"><span class="label">CAPABILITIES</span>
+<div class="capability">◈ RAG Knowledge</div>
+<div class="capability">⚙ Smart Tools</div>
+<div class="capability">◌ Memory</div></div>
+<div class="sidebar-section"><span class="label">QUICK PROMPTS</span>
+<button class="quick-prompt" data-prompt="What are the attendance requirements?">Attendance requirements</button>
+<button class="quick-prompt" data-prompt="What subjects are related to Cyber Security?">Cyber Security subjects</button>
+<button class="quick-prompt" data-prompt="I attended 42 out of 50 classes. Calculate my attendance.">Calculate attendance</button>
+</div>
+<button id="clearMemory" class="clear-button">Clear Conversation</button>
+</aside>
+<main class="main">
+<header class="topbar"><div><h2>AI Student Support Assistant</h2><p>Agentic AI • RAG • Tools • Memory</p></div><div class="status"><span class="status-dot"></span>Online</div></header>
+<section id="chat" class="chat">
+<div class="welcome"><div class="welcome-icon">AI</div><h2>How can I help you?</h2><p>Ask about academic information, calculate attendance, or continue a conversation.</p>
+<div class="examples">
+<button data-prompt="What are the attendance requirements?">Attendance requirements</button>
+<button data-prompt="Explain the Cyber Security subjects.">Cyber Security subjects</button>
+<button data-prompt="I attended 42 out of 50 classes. Calculate my attendance.">Attendance calculation</button>
+</div></div>
+</section>
+<div id="typing" class="typing hidden">Agent is thinking...</div>
+<form id="chatForm" class="composer"><input id="messageInput" type="text" placeholder="Ask your academic question..." autocomplete="off"><button type="submit" id="sendButton">Send</button></form>
+<div class="footer-note">AI-generated responses should be verified with official institutional information.</div>
+</main>
+</div>
+<script src="/static/app.js"></script>
+</body>
+</html>
